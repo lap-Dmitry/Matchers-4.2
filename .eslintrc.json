@@ -12,10 +12,17 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
         "no-restricted-syntax": [
             "error",
             "LabeledStatement",
             "WithStatement"
-        ]
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "no-unused-vars": "warn",
+        "no-multiple-empty-lines": "warn"
     }
 }
